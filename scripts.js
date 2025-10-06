@@ -1,10 +1,10 @@
 /* script.js - Portafolio interactivo (versión final) */
 
 const projects = [
-  {id:1,title:"40.976 visualizaciones - 2.732 interacciones",thumb:"assets/prohibidos.webp",image:"assets/prohibidos.webp",link:"https://www.instagram.com/reel/DMq-3YesGbK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Reel. Presentación de La Mona Jimenez en el Estadio Bicentenario.",roles:"Idea, Realización, Edición"},
+  {id:1,title:"40.976 visualizaciones - 2.732 interacciones",thumb:"assets/prohibidos.webp",image:"assets/prohibidos.webp",link:"https://www.instagram.com/reel/DMq-3YesGbK/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Reel. Presentación de "La Mona" Jimenez en el Estadio Bicentenario",roles:"Idea, Realización, Edición"},
   {id:2,title:"5.186 visualizaciones - 227 interacciones",thumb:"assets/numeros.webp",image:"assets/numeros.webp",link:"https://www.instagram.com/p/DMp4pQhs5gC/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Carrusel; Balance del Poncho 2.025",roles:"Idea, Diseño, Edición"},
   {id:3,title:"117.855 visualizaciones - 1.271 interacciones",thumb:"assets/mandamas.webp",image:"assets/mandamas.webp",link:"https://www.instagram.com/reel/DMplO5esbQs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Reel. El Mandamás del Poncho",roles:"Idea, Diseño, Edición"},
-  {id:4,title:"7.839 visualizaciones - 220 interacciones",thumb:"assets/turf.webp",image:"assets/turf.webp",link:"https://www.instagram.com/reel/DMnsx_TsnRv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Reel. Conferencia de prensa de Turf",roles:"Idea;Realización;Edición"},
+  {id:4,title:"7.839 visualizaciones - 220 interacciones",thumb:"assets/turf.webp",image:"assets/turf.webp",link:"https://www.instagram.com/reel/DMnsx_TsnRv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Reel. Conferencia de prensa de Turf",roles:"Idea;Realización, Edición"},
   {id:5,title:"4.271 visualizaciones - 97 interacciones",thumb:"assets/desakta2.webp",image:"assets/desakta2.webp",link:"https://www.instagram.com/reel/DMih6gaxi6U/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Reel. Conferencia de prensa de DesaKta2",roles:"Realización, Edición"},
   {id:6,title:"11.034 visualizaciones - 809 interacciones",thumb:"assets/profeta.webp",image:"assets/profeta.webp",link:"https://www.instagram.com/reel/DMiIG9WsN58/?utm_source=ig_web_copy_link",desc:"Reel. Presentación de Damián Córdoba en El Patio",roles:"Realización, Edición"},
   {id:7,title:"7.982 visualizaciones - 149 interacciones",thumb:"assets/nocheros.webp",image:"assets/nocheros.webp",link:"https://www.instagram.com/reel/DMf4ovFRpGf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Reel. Presentación de Los Nocheros",roles:"Idea, Realización, Edición"},
@@ -151,4 +151,5 @@ function escapeHtml(str) {
 }
 
 /* Inicializar galería */
+
 renderGallery();
