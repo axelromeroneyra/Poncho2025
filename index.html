@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portafolio - Axel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+  <div class="container header-inner">
+    <div class="profile">
+      <img id="profileImage" src="assets/profile.jpg" alt="Foto de perfil de Axel" width="96" height="96" />
+    </div>
+
+    <div class="bio">
+      <h1 class="brand">Axel Romero Neyra</h1>
+      <p class="subtitle">Comunicación digital · Creador de contenido · Community Manager</p>
+      <p class="subtitle">Poncho 2025 - Cobertura Redes de CRTV</p>
+	
+      <div class="contact-row" aria-label="Contactos">
+        <a class="contact-icon" href="mailto:axelromeroneyra@gmail.com" id="emailLink" title="Enviar email" aria-label="Enviar email" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icon-email.svg" alt="Email" width="36" height="36" />
+        </a>
+
+        <a class="contact-icon" href="https://wa.me/5493834584178" id="whatsappLink" title="Abrir WhatsApp" aria-label="Abrir WhatsApp" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icon-whatsapp.svg" alt="WhatsApp" width="36" height="36" />
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+  
+  <main class="container">
+    <section class="gallery" id="gallery"></section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modalClose"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="close-btn" id="closeBtn" aria-label="Cerrar">×</button>
+      <div class="modal-body">
+        <img id="modalImage" alt="">
+        <div class="meta">
+          <h2 id="modalTitle"></h2>
+          <p id="modalDesc" class="desc"></p>
+          <p class="roles"><strong>Roles:</strong> <span id="modalRoles"></span></p>
+          <a id="modalLink" class="external" target="_blank" rel="noopener">Ver publicación</a>
+        </div>
+      </div>
+      <div class="modal-nav">
+        <button id="prev" aria-label="Anterior">‹</button>
+        <button id="next" aria-label="Siguiente">›</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
+
