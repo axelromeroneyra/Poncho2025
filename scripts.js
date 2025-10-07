@@ -8,7 +8,7 @@ const projects = [
   {id:5,title:"4.271 visualizaciones - 97 interacciones",thumb:"assets/desakta2.webp",image:"assets/desakta2.webp",link:"https://www.instagram.com/reel/DMih6gaxi6U/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Reel. Conferencia de prensa de DesaKta2",roles:"Realización, Edición"},
   {id:6,title:"11.034 visualizaciones - 809 interacciones",thumb:"assets/profeta.webp",image:"assets/profeta.webp",link:"https://www.instagram.com/reel/DMiIG9WsN58/?utm_source=ig_web_copy_link",desc:"Reel. Presentación de Damián Córdoba en El Patio",roles:"Realización, Edición"},
   {id:7,title:"7.982 visualizaciones - 149 interacciones",thumb:"assets/nocheros.webp",image:"assets/nocheros.webp",link:"https://www.instagram.com/reel/DMf4ovFRpGf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Reel. Presentación de Los Nocheros",roles:"Idea, Realización, Edición"},
-  {id:8,title:"304.345 visualizaciones - 10.699 interacciones",thumb:"assets/lazarito.webp",image:"assets/lazarito.webp",link:"https://www.instagram.com/reel/DMbrFZBIdvX/?utm_source=ig_web_copy_link",desc:"Reel. Niño canta con Lazaro Caballero",roles:"Idea, Realización, Edición"},
+  {id:8,title:"304.345 visualizaciones - 10.699 interacciones",thumb:"assets/lazarito.webp",image:"assets/lazarito.webp",link:"https://www.instagram.com/reel/DMc0q8dsY_r/?utm_source=ig_web_copy_link",desc:"Reel. Niño canta con Lazaro Caballero",roles:"Idea, Realización, Edición"},
   {id:9,title:"4.097 visualizaciones - 181 interacciones",thumb:"assets/valeint.webp",image:"assets/valeint.webp",link:"https://www.instagram.com/reel/DMbrFZBIdvX/?utm_source=ig_web_copy_link",desc:"Reel. Presentación de Valentin Vargas en el Poncho",roles:"Idea, Realización, Edición"},
   {id:10,title:"26.328 visualizaciones - 949 interacciones",thumb:"assets/valentin-invitados.webp",image:"assets/valentin-invitados.webp",link:"https://www.instagram.com/p/DMXwqzFsTC2/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Carrusel. Repaso de los invitados de Valentin Vargas en su presentación",roles:"Idea, Realización, Edición"},
   {id:11,title:"3.677 visualizaciones - 216 interacciones",thumb:"assets/abel.webp",image:"assets/abel.webp",link:"https://www.instagram.com/p/DMS8v93Mp1B/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",desc:"Carrusel. Mejores momentos de la presentación de Abel Pintos",roles:"Idea, Realización, Edición"},
@@ -153,4 +153,5 @@ function escapeHtml(str) {
 /* Inicializar galería */
 
 renderGallery();
+
 
